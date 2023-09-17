@@ -29,7 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/xiaomi/fleur/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
     vendor/xiaomi/fleur/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/fleur/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+    vendor/xiaomi/fleur/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/fleur/proprietary/lib/hw/audio.primary.mt6781.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/lib/hw/audio.primary.mt6781.so
 
 PRODUCT_PACKAGES += \
     ImsService \
